@@ -1,0 +1,326 @@
+/* SECTION HEATHER */
+
+/* SECTION NAVBAR */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item1{
+    margin: 1rem;
+}
+
+.nav-item2{
+    margin: 1rem;
+}
+/* SECTION NAVBAR */
+
+/* SECCION BANNER */
+
+.header{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container-banner{    
+    display: flex;
+    max-width: 100%;
+    height: 75vh;
+    background-image: url(./assets/img/foto-banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-items-banner{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;    
+}
+
+.pencilBanner{
+    display: flex;
+    justify-content: end;
+}
+
+.textBanner{
+    display: flex;
+    justify-content: center;
+    margin: 10%;    
+}
+
+.rounded-circle{
+    margin-top: -5%;
+    width: 20%;
+    margin-left: 3%;
+}
+
+.profilePohtoBanner h3{
+    display:  flex;
+    justify-content: start;
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.pencilEditProfilePhoto{
+    margin-left: 23%;
+}
+
+/* SECCION BANNER */
+
+/* SECTION HEATHER */
+
+
+
+/* SECCION MAIN */
+
+/* SECTION PRESENTATION */
+
+main{
+    margin:0%;
+    padding:0%;
+    background-color: rgb(0, 0, 0);
+}
+
+.container-text{
+    display: flex;
+    padding: 5% 5% 0 0%;
+    justify-content: end;
+}
+
+.container-box{
+    display: flex;
+    width: 75%;
+}
+
+/* SECTION PRESENTATION */
+
+
+
+/* EXPERIENCE SECCTION */
+
+.container-experience{
+    padding-top: 8%;
+}
+
+.container-box-experience{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.imgLogoNtn24{
+    width: 100%;
+}
+
+/* EXPERIENCE SECCTION */
+
+
+
+/* EDUCATION SECTION */
+
+.educationText{
+    margin-left: -5%;
+}
+
+.container-box-education{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    
+}
+
+.card{
+    border-radius: 10px;
+    min-height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    background-size: cover;
+    width: 23%;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.card1{
+    width: 25%;    
+}
+
+.card2{
+    width: 30%;
+}
+
+.card3{
+    width: 30%;
+}
+
+.card4{
+    width: 5%;
+}
+
+.imgUniversidadDelQuindio{
+    width: 45%;
+}
+
+.imgLogoSeProgramar{
+    width: 100%;
+}
+/* EDUCATION SECTION */
+
+
+/* SKILLS SECTION */
+
+h1 {
+    color: #ffffff; }
+  
+  .progress-circle {
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ebebeb; }
+  
+  .progress-circle:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-animation: colorload 2s;
+    animation: colorload 2s; }
+  
+  .progress-circle span {
+    font-size: 1rem;
+    color: #8b8b8b;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin-left: -45px;
+    margin-top: -45px;
+    text-align: center;
+    border-radius: 50%;
+    background: #000000;
+    z-index: 1; }
+  
+  .progress-circle span:after {
+    content: "%";
+    font-weight: 600;
+    color: #8b8b8b; }
+
+
+    .progress-circle.progress-75:after {
+        background-image: linear-gradient(0deg, #999908 50%, transparent 50%, transparent), linear-gradient(270deg, #999908 50%, #ebebeb 50%, #ebebeb); }
+
+    .progress-circle.progress-70:after {
+        background-image: linear-gradient(-18deg, #999908 50%, transparent 50%, transparent), linear-gradient(270deg, #999908 50%, #ebebeb 50%, #ebebeb); }
+
+    .progress-circle.progress-80:after {
+        background-image: linear-gradient(18deg, #999908 50%, transparent 50%, transparent), linear-gradient(270deg, #999908 50%, #ebebeb 50%, #ebebeb); }
+
+    .progress-circle.progress-60:after {
+        background-image: linear-gradient(-54deg, #999908 50%, transparent 50%, transparent), linear-gradient(270deg, #999908 50%, #ebebeb 50%, #ebebeb); }
+
+
+.container-skills{
+    padding-top: 7%;
+}
+
+.titleSkills{
+    padding-left: 5%;
+}
+
+
+.container-section-skills{    
+    display: flex;
+    flex-direction: column;
+    padding-top:7%;
+
+}
+
+.container-items{
+    flex-direction: row;
+    display: flex;
+    width:100%;
+    height: 100%;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.items{
+    display:flex;
+    width: 20%;
+    justify-content: right;
+}
+/* SKILLS SECTION */
+
+
+
+
+
+
+/* SECCIÓN PROYECTOS */
+
+/* section projects */
+.projects{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 8%;
+}/* section projects */
+
+/* text projects */
+.textProjects{   
+    text-align: center; 
+    margin-top: 12%;  
+}/* text projects */
+
+/* text description project */
+.textDescription{
+    margin-top: 20%;
+    text-align: left;     
+}/* text description project */
+
+#galeria{
+    padding-left:2%;
+}
+
+/* image gallery */
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+#galeria.col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+#galeria img:hover{
+    border: 5px solid black;
+}/* image gallery */
+
+/* SECCIÓN PROYECTOS */
+
+/* SECCION MAIN */
+
+
+/* SECTION FOOTER */
+
+/* footer */
+.footeralfondo{
+    padding-top: 10%;
+    text-align: center;
+    background-color: #000000;
+}/* footer */
+
+/* SECTION FOOTER */
+
+
