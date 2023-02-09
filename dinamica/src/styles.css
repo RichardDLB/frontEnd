@@ -112,7 +112,7 @@ main{
 }
 
 .imgLogoNtn24{
-    width: 100%;
+    width: 70%;
 }
 
 /* EXPERIENCE SECCTION */
@@ -271,11 +271,15 @@ h1 {
 
 /* SECCIÓN PROYECTOS */
 
+
+
 /* section projects */
 .projects{
+    padding:0;
+    margin:0;
     width: 100%;
     box-sizing: border-box;
-    margin-top: 8%;
+    padding-top: 8%;
 }/* section projects */
 
 /* text projects */
@@ -289,10 +293,6 @@ h1 {
     margin-top: 20%;
     text-align: left;     
 }/* text description project */
-
-#galeria{
-    padding-left:2%;
-}
 
 /* image gallery */
 #galeria img{
