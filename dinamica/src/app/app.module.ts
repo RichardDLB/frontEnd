@@ -12,6 +12,8 @@ import { SkillsComponent } from './componentes/skills/skills.component';
 import { ProjectsComponent } from './componentes/projects/projects.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { ModalsComponent } from './componentes/modals/modals.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { ModalsComponent } from './componentes/modals/modals.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
