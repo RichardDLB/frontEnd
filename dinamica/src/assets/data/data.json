@@ -1,8 +1,8 @@
 
 {
-    "imgBanner": "./asset/img/foto-banner.jpeg",
+    "imgBanner": "../asset/img/foto-banner.jpeg",
     "nameBanner": "Richard D Lopez B",
-    "imgPerfil": "./asset/img/foto-perfil.jpg",
+    "imgPerfil": "../asset/img/foto-perfil.jpg",
     "nombre": "Richard D Lopez ",
 
     "textPresentacion": "Full Stack Developer Jr, active and motivated by self-learning individually and in groups and with a lot of encouragement and love for the new challenges that give me tools for a better personal and professional growth.",
@@ -10,7 +10,7 @@
 
     "experiencia": [
         {
-            "logoEmpresa": "./asset/img/ntn24-logo.png",
+            "logoEmpresa": "../asset/img/ntn24-logo.png",
             "empresa": "Portal Web de Noticias NTN24",
             "cargo": "redactor web",
             "fecha": "01-08-2012"
@@ -19,8 +19,9 @@
 ],
 
     "educacion": [
-            {
-                "logoInstitucion": "./asset/img/certificado-se-programar.png",
+            {   
+                "id": "1",
+                "logoInstitucion": "../asset/img/certificado-se-programar.png",
                 "institucion": "Ministerio de desarrollo productivo Argentina",
                 "titulo": "certificado desarrollador web",
                 "fecha": "11-05-2022"
@@ -28,7 +29,8 @@
         },
 
             {
-                "logoInstitucion": "./asset/img/logo-universidad.png",
+                "id": "2",
+                "logoInstitucion": "../asset/img/logo-universidad.png",
                 "institucion": "Universidad del Quindio, Colombia",
                 "titulo": "Comunicador Social Periodista",
                 "fecha": "01-08-2012"
@@ -40,49 +42,63 @@
     "skills": [
 
         {
+            "id": "1",
             "nombreSkill1": "Css3",
             "porcentaje": "70"
         },
 
         {
+            "id": "2",
             "nombreSkill2": "JS",
             "porcentaje": "70"
         },
 
         {
+            "id": "3",
             "nombreSkill3": "Angular",
             "porcentaje": "70"
         },
 
         {
+            "id": "4",
             "nombreSkill4": "Git",
             "porcentaje": "70"
         },
 
         {
+            "id": "5",
             "nombreSkill5": "BootStrap",
             "porcentaje": "70"
         },
 
         {
+            "id": "6",
             "nombreSkill6": "Html5",
             "porcentaje": "70"
         },
 
         {
+            "id": "7",
             "nombreSkill7": "Html5",
             "porcentaje": "70"
         },
 
         {
+            "id": "8",
             "nombreSkill8": "Html5",
             "porcentaje": "70"
         }
 
     ],
 
+
     "nombreProyecto": "Juego TATETI",
     "lenguaje": "Desarrollado en Java",
-    "fechaProyeto": "12-14-2022"
+    "fechaProyeto": "12-14-2022",
+    "imgProyecto1": "../asset/img/logo-universidad.png",
+    "imgProyecto2": "../asset/img/logo-universidad.png",
+    "imgProyecto3": "../asset/img/logo-universidad.png"
+
+
 }
 
