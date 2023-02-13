@@ -318,7 +318,7 @@ h1 {
     padding: 25px;
 }
 #galeria img:hover{
-    border: 5px solid black;
+    border: 5px solid rgb(255, 255, 255);
 }/* image gallery */
 
 /* SECCIÓN PROYECTOS */

@@ -6,20 +6,14 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
   templateUrl: './banner.component.html',
   styleUrls: ['./banner.component.css']
 })
-export class BannerComponent implements OnInit {
-
-  miPorfolio:any;
-  nombre:string ="";
+export class BannerComponent implements OnInit {  
 
   constructor(private datosPorfolio:PorfolioService) { }
 
   ngOnInit():void{
-    
     this.datosPorfolio.obtenerDatos().subscribe(data =>{
       console.log(data);
-      this.nombre=data.nombre;
     });
-       
   }
 
 }

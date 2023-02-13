@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { observable, Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 
 
@@ -13,7 +13,7 @@ export class PorfolioService {
  
   obtenerDatos(): Observable<any>{
 
-    return this.http.get('../assets/data/data.json');
+    return this.http.get('./assets/data/data.json');
 
   }
 }

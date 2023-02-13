@@ -1,10 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { PorfolioService } from 'src/app/servicios/porfolio.service';
 
 @Component({
   selector: 'app-education',
   templateUrl: './education.component.html',
   styleUrls: ['./education.component.css']
 })
-export class EducationComponent {
+export class EducationComponent implements OnInit {  
+
+  constructor(private datosPorfolio:PorfolioService) { }
+
+  ngOnInit():void{
+
+    this.datosPorfolio.obtenerDatos();
+     
+  }
 
 }

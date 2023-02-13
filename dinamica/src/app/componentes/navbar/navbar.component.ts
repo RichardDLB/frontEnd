@@ -6,18 +6,14 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
-export class NavbarComponent implements OnInit {
-
-  miPorfolio:any;
+export class NavbarComponent implements OnInit {  
 
   constructor(private datosPorfolio:PorfolioService) { }
 
   ngOnInit():void{
 
-    this.datosPorfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
-      this.miPorfolio=data;
-    });    
+    this.datosPorfolio.obtenerDatos();
+     
   }
 
 }
