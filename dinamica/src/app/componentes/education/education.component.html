@@ -13,7 +13,7 @@
         <div class="imgLogSeProgramar">
           <div>
             <button type="button" class="btn container" data-bs-toggle="modal" data-bs-target="#logoArgentinaProgramaModal">
-              <img src="./../assets/img/logo-se-programar.png" alt="logo-argentinaPrograma" class="imgLogoSeProgramar" >
+              <img [src]="miPorfolio.logoInstitucion" alt="logo-argentinaPrograma" class="imgLogoSeProgramar">
             </button>
           </div>
         </div>
@@ -23,10 +23,10 @@
         
         <div class="card card3">
 
-          <div class="SeProgramarText text-white">
-            <h4>Certificado #SeProgramar</h4>                
-            <h4>Desarrollador web </h4>
-            <h5>Buenos Aires, Argentina, 12-12-2022 </h5>
+          <div *ngFor="let education of educationList" class="SeProgramarText text-white" id="1">
+            <h4>{{education.institucion}}</h4>                
+            <h4>{{education.titulo}}</h4>
+            <h5>{{education.fecha}}</h5>
           </div> 
 
         </div> 
