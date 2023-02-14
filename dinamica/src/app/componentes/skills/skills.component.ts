@@ -6,13 +6,18 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.css']
 })
-export class SkillsComponent implements OnInit {  
+export class SkillsComponent implements OnInit {
+  
+  miPorfolio: any;  
 
   constructor(private datosPorfolio:PorfolioService) { }
 
   ngOnInit():void{
 
-    this.datosPorfolio.obtenerDatos();
+    this.datosPorfolio.obtenerDatos().subscribe(data =>{
+      console.log(data);
+      this.miPorfolio=data;
+    });
      
   }
 

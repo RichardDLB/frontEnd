@@ -6,13 +6,18 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
   templateUrl: './education.component.html',
   styleUrls: ['./education.component.css']
 })
-export class EducationComponent implements OnInit {  
+export class EducationComponent implements OnInit {
+  
+  miPorfolio: any;  
 
   constructor(private datosPorfolio:PorfolioService) { }
 
   ngOnInit():void{
 
-    this.datosPorfolio.obtenerDatos();
+    this.datosPorfolio.obtenerDatos().subscribe(data =>{
+      console.log(data);
+      this.miPorfolio=data;
+    });
      
   }
 
