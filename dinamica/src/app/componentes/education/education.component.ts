@@ -9,7 +9,8 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
 export class EducationComponent implements OnInit {
 [x: string]: any;
   
-  educationList: any; 
+  // instanciamos la variable education para poder traer el array
+  educationList: any = [];
   miPorfolio: any;  
 
 
@@ -20,12 +21,10 @@ export class EducationComponent implements OnInit {
     this.datosPorfolio.obtenerDatos().subscribe(data =>{
       console.log(data);
       this.educationList=data.education;
-    });
-
-    this.datosPorfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
       this.miPorfolio=data;
     });
+
+   
      
   }
 
