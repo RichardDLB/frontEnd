@@ -8,13 +8,15 @@
     "textPresentation": "Full Stack Developer Jr, active and motivated by self-learning individually and in groups and with a lot of encouragement and love for the new challenges that give me tools for a better personal and professional growth.",
 
 
-    "experiencia": [
-        {
-            "logoEmpresa": "../asset/img/ntn24-logo.png",
+    "experienciaList": [
+        {   
+            "id":"1",
+            "titulo":"Experiencia",
+            "logoEmpresa": "./../assets/img/ntn24-logo.png",
             "empresa": "Portal Web de Noticias NTN24",
-            "cargo": "redactor web",
-            "fecha": "01-08-2012"
-
+            "cargo": "Redactor Web",
+            "fechaIni": "01-02-2012",
+            "fechaFin": "12-12-2012"
     }
 ],
 

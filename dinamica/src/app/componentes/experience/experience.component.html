@@ -9,12 +9,11 @@
   </div>      
   <!-- pencil edit experience section -->
       
-    <div class="container-box-experience">
-
+    <div *ngFor="let experiencias of miPorfolio" class="container-box-experience">
 
         <div class="card card1">
           <h1 class="text-white">
-            Experiencia
+            {{experiencias.titulo}}
           </h1>     
         </div>    
 
@@ -22,7 +21,7 @@
     <!--Button logo ntn24 modal -->
           <div class="box-logo">
             <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#logoNtn24Modal">
-              <img src="./../assets/img/ntn24-logo.png" alt="logoNtn-24" class="imgLogoNtn24">
+              <img [src]="experiencias.logoEmpresa" alt="logoNtn-24" class="imgLogoNtn24">
             </button>
         </div>
     <!--Button logo ntn24 modal -->
@@ -31,8 +30,9 @@
         <div class="card card3">
 
           <div class="webEditorText text-white">        
-            <h4>Redactor Web</h4>
-            <h5>Portal Web de Noticias NTN24</h5>
+            <h4>{{experiencias.empresa}}</h4>
+            <h5>{{experiencias.cargo}}</h5>
+            <h5>{{experiencias.fechaIni}} / {{experiencias.fechaFin}} </h5>
           </div> 
         </div> 
 
