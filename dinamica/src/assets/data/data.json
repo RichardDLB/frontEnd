@@ -20,23 +20,25 @@
     }
 ],
 
-    "educacion": [
+    "educacionlist": [
             {   
                 "id": "1",
-                "logoInstitucion": "../asset/img/certificado-se-programar.png",
-                "institucion": "Ministerio de desarrollo productivo Argentina",
-                "titulo": "certificado desarrollador web",
-                "fecha": "11-05-2022"
-
+                "tituloEducacion":"Educación",
+                "logoInstitucion": "./../assets/img/logo-se-programar.png",
+                "institucion": "Ministerio de Desarrollo Productivo Argentina",
+                "titulo": "Certificado Desarrollador Web",
+                "fechaIni": "11-05-2022",
+                "fechaFin": "11-05-2022"
         },
 
             {
                 "id": "2",
-                "logoInstitucion": "../asset/img/logo-universidad.png",
+                "tituloEducacion":"",
+                "logoInstitucion": "./../assets/img/logo-universidad.png",
                 "institucion": "Universidad del Quindio, Colombia",
                 "titulo": "Comunicador Social Periodista",
-                "fecha": "01-08-2012"
-
+                "fechaIni": "11-05-2022",
+                "fechaFin": "11-05-2022"
         }
 
     ],
@@ -45,49 +47,49 @@
 
         {
             "id": "1",
-            "nombreSkill1": "Css3",
+            "nombre": "Css3",
             "porcentaje": "70"
         },
 
         {
             "id": "2",
-            "nombreSkill2": "JS",
+            "nombre": "JS",
             "porcentaje": "70"
         },
 
         {
             "id": "3",
-            "nombreSkill3": "Angular",
+            "nombre": "Angular",
             "porcentaje": "70"
         },
 
         {
             "id": "4",
-            "nombreSkill4": "Git",
+            "nombre": "Git",
             "porcentaje": "70"
         },
 
         {
             "id": "5",
-            "nombreSkill5": "BootStrap",
+            "nombre": "BootStrap",
             "porcentaje": "70"
         },
 
         {
             "id": "6",
-            "nombreSkill6": "Html5",
+            "nombre": "Html5",
             "porcentaje": "70"
         },
 
         {
             "id": "7",
-            "nombreSkill7": "Html5",
+            "nombre": "Html5",
             "porcentaje": "70"
         },
 
         {
             "id": "8",
-            "nombreSkill8": "Html5",
+            "nombre": "Html5",
             "porcentaje": "70"
         }
 

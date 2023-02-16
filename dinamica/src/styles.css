@@ -170,7 +170,7 @@ main{
 }
 
 .imgUniversidadDelQuindio{
-    width: 45%;
+    width: 15%;
 }
 
 .imgLogoSeProgramar{
@@ -237,37 +237,35 @@ h1 {
     .progress-circle.progress-60:after {
         background-image: linear-gradient(-54deg, #999908 50%, transparent 50%, transparent), linear-gradient(270deg, #999908 50%, #ebebeb 50%, #ebebeb); }
 
-
-.container-skills{
-    padding-top: 7%;
-}
-
 .titleSkills{
     padding-left: 5%;
 }
 
-
-.container-section-skills{    
+.container-skills{
+    padding-top: 7%;
     display: flex;
     flex-direction: column;
+
+}
+
+.container-section-skills{    
     padding-top:7%;
 
 }
 
 .container-items{
-    flex-direction: row;
-    display: flex;
+    display:flex;
     width:100%;
     height: 100%;
     gap: 20px;
     padding: 20px;
     justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .items{
-    display:flex;
-    width: 20%;
-    justify-content: right;
+    width: 23%;
 }
 /* SKILLS SECTION */
 
