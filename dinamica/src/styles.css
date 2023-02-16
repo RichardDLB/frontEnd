@@ -122,7 +122,6 @@ main{
     width: 70%;
 }
 
-
 /* EXPERIENCE SECCTION */
 
 
@@ -147,22 +146,23 @@ main{
     min-height: 200px;
     padding: 20px;
     overflow: hidden;
+    background-size: cover;
     width: 23%;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     background-color: #000000;
 }
 
 .card1{
-    width: 29%;    
+    width: 25%;    
 }
 
 .card2{
-    width: 29%;
+    width: 30%;
 }
 
 .card3{
-    width: 29%;
+    width: 30%;
 }
 
 .card4{
@@ -318,7 +318,7 @@ h1 {
     padding: 25px;
 }
 #galeria img:hover{
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid black;
 }/* image gallery */
 
 /* SECCIÓN PROYECTOS */

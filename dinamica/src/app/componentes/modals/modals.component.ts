@@ -1,19 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { PorfolioService } from 'src/app/servicios/porfolio.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-modals',
   templateUrl: './modals.component.html',
   styleUrls: ['./modals.component.css']
 })
-export class ModalsComponent implements OnInit {  
-
-  constructor(private datosPorfolio:PorfolioService) { }
-
-  ngOnInit():void{
-
-    this.datosPorfolio.obtenerDatos();
-     
-  }
+export class ModalsComponent {
 
 }

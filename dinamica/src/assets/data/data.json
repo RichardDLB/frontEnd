@@ -1,24 +1,27 @@
 
 {   
-    "nombre": "Richard Lopez ",
-    "posicion": "Developer",
-    "imgBanner": "./../assets/img/foto-banner.jpeg",
-    "textBanner": "Richard Lopez",
+    "nombre": "Richard Disney Lopez Bolivar ",    
     "imgPerfil": "./../assets/img/foto-perfil.jpg",
+    "imgBanner": "../asset/img/foto-banner.jpeg",
+    "nameImgPerfil": "Richard D Lopez B",
+    "cargo" : "Developer",
+    "textPresentation": "Full Stack Developer Jr, active and motivated by self-learning individually and in groups and with a lot of encouragement and love for the new challenges that give me tools for a better personal and professional growth.",
 
-    "textPresentacion": "Full Stack Developer Jr, active and motivated by self-learning individually and in groups and with a lot of encouragement and love for the new challenges that give me tools for a better personal and professional growth.",
 
-        
-    "cargo": "Redactor web portal de noticias",
-    "empresa": "Ntn24",
-    "fecha": "febrero del 2013",         
+    "experiencia": [
+        {
+            "logoEmpresa": "../asset/img/ntn24-logo.png",
+            "empresa": "Portal Web de Noticias NTN24",
+            "cargo": "redactor web",
+            "fecha": "01-08-2012"
 
-    "logoInstitucion": "./../assets/img/logo-se-programar.png",
-    
-    
-    "education": [
+    }
+],
+
+    "educacion": [
             {   
                 "id": "1",
+                "logoInstitucion": "../asset/img/certificado-se-programar.png",
                 "institucion": "Ministerio de desarrollo productivo Argentina",
                 "titulo": "certificado desarrollador web",
                 "fecha": "11-05-2022"
@@ -27,6 +30,7 @@
 
             {
                 "id": "2",
+                "logoInstitucion": "../asset/img/logo-universidad.png",
                 "institucion": "Universidad del Quindio, Colombia",
                 "titulo": "Comunicador Social Periodista",
                 "fecha": "01-08-2012"

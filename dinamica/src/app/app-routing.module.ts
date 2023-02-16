@@ -10,15 +10,14 @@ import { ProjectsComponent } from './componentes/projects/projects.component';
 import { SkillsComponent } from './componentes/skills/skills.component';
 
 const routes: Routes = [
-  { path: 'nabvar', component:NavbarComponent},
+  { path: '', component:NavbarComponent},
   { path: 'banner', component:BannerComponent},  
   { path: 'presentation', component:PresentationComponent},
   { path: 'experience', component:ExperienceComponent},
   { path: 'education', component:EducationComponent},
   { path: 'skills', component:SkillsComponent},
   { path: 'projects', component:ProjectsComponent},
-  { path: 'footer', component:FooterComponent},
-
+  { path: 'footer', component:FooterComponent}
 ];
 
 @NgModule({

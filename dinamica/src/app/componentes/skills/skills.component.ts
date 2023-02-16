@@ -7,8 +7,8 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent implements OnInit {
-  
-  miPorfolio: any;  
+
+  miPorfolio:any;
 
   constructor(private datosPorfolio:PorfolioService) { }
 
@@ -17,8 +17,7 @@ export class SkillsComponent implements OnInit {
     this.datosPorfolio.obtenerDatos().subscribe(data =>{
       console.log(data);
       this.miPorfolio=data;
-    });
-     
+    });    
   }
 
 }
