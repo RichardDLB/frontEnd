@@ -96,13 +96,23 @@
 
     ],
 
+    "projectsList":[
+        {   
+            "id":"1",
+            "titleProyectos": "Proyectos",
+            "proyecto": "Juego TATETI",
+            "descripcion": "Desarrollado en Java",
+            "fecha": "14-12-2022",
+            "imgProyecto1": "./../assets/img/tateti1.png",
+            "imgProyecto2": "./../assets/img/tateti2.png",
+            "imgProyecto3": "./../assets/img/tateti3.png"
 
-    "nombreProyecto": "Juego TATETI",
-    "lenguaje": "Desarrollado en Java",
-    "fechaProyeto": "12-14-2022",
-    "imgProyecto1": "../asset/img/logo-universidad.png",
-    "imgProyecto2": "../asset/img/logo-universidad.png",
-    "imgProyecto3": "../asset/img/logo-universidad.png"
+        }
+
+
+
+    ]
+    
 
 
 }
