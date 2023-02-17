@@ -47,38 +47,39 @@
 
         {
             "id": "1",
-            "nombre": "Css3",
-            "porcentaje": "70"
+            "nombre": "HTML5",
+            "porcentaje": "75",
+            "progresoPorcentaje": "75"
         },
 
         {
             "id": "2",
+            "nombre": "CSS3",
+            "porcentaje": "75"
+        },
+
+        {
+            "id": "3",
             "nombre": "JS",
             "porcentaje": "70"
         },
 
         {
-            "id": "3",
-            "nombre": "Angular",
-            "porcentaje": "70"
-        },
-
-        {
             "id": "4",
-            "nombre": "Git",
+            "nombre": "Angular",
             "porcentaje": "70"
         },
 
         {
             "id": "5",
             "nombre": "BootStrap",
-            "porcentaje": "70"
+            "porcentaje": "80"
         },
 
         {
             "id": "6",
-            "nombre": "Html5",
-            "porcentaje": "70"
+            "nombre": "Git",
+            "porcentaje": "80"
         },
 
         {

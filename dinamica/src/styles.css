@@ -245,28 +245,22 @@ h1 {
     padding-top: 7%;
     display: flex;
     flex-direction: column;
-
 }
 
-.container-section-skills{    
+.container-section-skills{ 
     padding-top:7%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
 .container-items{
-    display:flex;
-    width:100%;
-    height: 100%;
-    gap: 20px;
-    padding: 20px;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex;
+    width: 25%;
+    justify-content: center;       
 }
 
-.items{
-    width: 23%;
-}
 /* SKILLS SECTION */
 
 
