@@ -4,6 +4,7 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { EducationComponent } from './componentes/education/education.component';
 import { ExperienceComponent } from './componentes/experience/experience.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { ModalsComponent } from './componentes/modals/modals.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { PresentationComponent } from './componentes/presentation/presentation.component';
 import { ProjectsComponent } from './componentes/projects/projects.component';
@@ -17,7 +18,9 @@ const routes: Routes = [
   { path: 'education', component:EducationComponent},
   { path: 'skills', component:SkillsComponent},
   { path: 'projects', component:ProjectsComponent},
-  { path: 'footer', component:FooterComponent}
+  { path: 'footer', component:FooterComponent},
+  { path: 'modals', component:ModalsComponent}
+
 ];
 
 @NgModule({

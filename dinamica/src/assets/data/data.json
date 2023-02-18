@@ -1,8 +1,9 @@
 
 {   
+    
     "nombre": "Richard Disney Lopez Bolivar ",    
     "imgPerfil": "./../assets/img/foto-perfil.jpg",
-    "imgBanner": "../asset/img/foto-banner.jpeg",
+    "banner": "./../assets/img/foto-banner.jpeg",
     "nameImgPerfil": "Richard D Lopez B",
     "cargo" : "Developer",
     "textPresentation": "Full Stack Developer Jr, active and motivated by self-learning individually and in groups and with a lot of encouragement and love for the new challenges that give me tools for a better personal and professional growth.",
@@ -10,7 +11,7 @@
 
     "experienciaList": [
         {   
-            "id":"1",
+            "id":1,
             "titulo":"Experiencia",
             "logoEmpresa": "./../assets/img/ntn24-logo.png",
             "empresa": "Portal Web de Noticias NTN24",
@@ -22,7 +23,7 @@
 
     "educacionlist": [
             {   
-                "id": "1",
+                "id": 1,
                 "tituloEducacion":"Educación",
                 "logoInstitucion": "./../assets/img/logo-se-programar.png",
                 "institucion": "Ministerio de Desarrollo Productivo Argentina",
@@ -32,7 +33,7 @@
         },
 
             {
-                "id": "2",
+                "id": 2,
                 "tituloEducacion":"",
                 "logoInstitucion": "./../assets/img/logo-universidad.png",
                 "institucion": "Universidad del Quindio, Colombia",
@@ -46,59 +47,58 @@
     "skills": [
 
         {
-            "id": "1",
+            "id": 1,
             "nombre": "HTML5",
-            "porcentaje": "75",
-            "progresoPorcentaje": "75"
-        },
+            "porcentaje": 80
+        },  
 
         {
-            "id": "2",
+            "id": 2,
             "nombre": "CSS3",
-            "porcentaje": "75"
+            "porcentaje": 75
         },
 
         {
-            "id": "3",
+            "id": 3,
             "nombre": "JS",
-            "porcentaje": "70"
+            "porcentaje": 70
         },
 
         {
-            "id": "4",
+            "id": 4,
             "nombre": "Angular",
-            "porcentaje": "70"
+            "porcentaje": 70
         },
 
         {
-            "id": "5",
+            "id": 5,
             "nombre": "BootStrap",
-            "porcentaje": "80"
+            "porcentaje": 80
         },
 
         {
-            "id": "6",
+            "id": 6,
             "nombre": "Git",
-            "porcentaje": "80"
+            "porcentaje": 80
         },
 
         {
-            "id": "7",
+            "id": 7,
             "nombre": "Html5",
-            "porcentaje": "70"
+            "porcentaje": 70
         },
 
         {
-            "id": "8",
+            "id": 8,
             "nombre": "Html5",
-            "porcentaje": "70"
+            "porcentaje": 80
         }
 
     ],
 
     "projectsList":[
         {   
-            "id":"1",
+            "id":1,
             "titleProyectos": "Proyectos",
             "proyecto": "Juego TATETI",
             "descripcion": "Desarrollado en Java",

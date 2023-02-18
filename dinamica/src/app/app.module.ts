@@ -13,6 +13,7 @@ import { ProjectsComponent } from './componentes/projects/projects.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { ModalsComponent } from './componentes/modals/modals.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -31,7 +32,10 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
