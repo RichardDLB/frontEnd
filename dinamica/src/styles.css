@@ -47,7 +47,7 @@
 .textBanner{
     display: flex;
     justify-content: center;
-    margin: 10%;    
+    margin: 10%;
 }
 
 .rounded-circle{
@@ -60,7 +60,16 @@
     display:  flex;
     justify-content: start;
     margin-top: 2%;
-    margin-left: 6%;
+}
+
+.textoImgPerfil{
+    display:  flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 20%;
+    margin-top:3%;
+    margin-left:3%;
+   
 }
 
 .pencilEditProfilePhoto{
@@ -85,7 +94,7 @@ main{
 
 .container-text{
     display: flex;
-    padding: 5% 5% 0 0%;
+    padding: 5%;
     justify-content: end;
 }
 
@@ -108,7 +117,7 @@ main{
 }
 
 .container-experience{
-    padding-top: 8%;
+    padding-top: 4%;
 }
 
 .container-box-experience{
@@ -310,7 +319,7 @@ h1 {
     padding: 25px;
 }
 #galeria img:hover{
-    border: 5px solid black;
+    border: 5px solid #999908;
 }/* image gallery */
 
 /* SECCIÓN PROYECTOS */

@@ -17,8 +17,7 @@
       <!-- text banner -->
       <div class="textBanner">
         <h1 class=" text-center text-white">
-        Hello I'm <br> {{miPorfolio.nombre}} <br>
-        <span class="text-black">Full Web Stack Developer</span> 
+        Hello I'm <br> {{miPorfolio.nombre}}
         </h1>
       </div>
       <!-- text banner -->
@@ -36,8 +35,16 @@
         <div>
           <img [src]="miPorfolio.imgPerfil" alt="profile-photo" class="rounded-circle img-fluid">
         </div>
-        <div>
-          <h3 class="text-white text-center">{{miPorfolio.nameImgPerfil}}<br>{{miPorfolio.cargo}}</h3>
+        <div  class=" textoImgPerfil text-white text-center">
+
+          <div>
+          <h4>{{miPorfolio.cargo}}</h4>         
+          </div>
+
+          <div>
+          <h5>{{miPorfolio.ciudad}}</h5>
+          </div>
+
         </div>
       </div>  
       <!-- profile photo -->
