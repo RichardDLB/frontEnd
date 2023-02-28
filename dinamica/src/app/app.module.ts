@@ -14,6 +14,8 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { ModalsComponent } from './componentes/modals/modals.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { IndexComponent } from './componentes/index/index.component';
+import { EdicionComponent } from './componentes/edicion/edicion.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     SkillsComponent,
     ProjectsComponent,
     FooterComponent,
-    ModalsComponent
+    ModalsComponent,
+    IndexComponent,
+    EdicionComponent
   ],
   imports: [
     BrowserModule,
