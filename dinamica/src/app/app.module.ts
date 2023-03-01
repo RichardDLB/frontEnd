@@ -39,11 +39,7 @@ import { LogoutComponent } from './componentes/navbar/logout/logout.component';
     LogosComponent,
     RedesComponent,
     LoginComponent,
-<<<<<<< HEAD
-    LogoutComponent,
-=======
     LogoutComponent
->>>>>>> 392f55bd6fd72ae790409bbb6078754709ec3585
   ],
   
   imports: [
