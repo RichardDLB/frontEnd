@@ -20,6 +20,7 @@ import { LogosComponent } from './componentes/navbar/logos/logos.component';
 import { RedesComponent } from './componentes/navbar/redes/redes.component';
 import { LoginComponent } from './componentes/navbar/login/login.component';
 import { LogoutComponent } from './componentes/navbar/logout/logout.component';
+import { ModalLoginComponent } from './componentes/navbar/login/modal-login/modal-login.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { LogoutComponent } from './componentes/navbar/logout/logout.component';
     LogosComponent,
     RedesComponent,
     LoginComponent,
-    LogoutComponent
+    LogoutComponent,
+    ModalLoginComponent
   ],
   
   imports: [
