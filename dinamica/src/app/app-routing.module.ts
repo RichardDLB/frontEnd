@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { IndexComponent } from './componentes/index/index.component';
 import { EdicionComponent } from './componentes/edicion/edicion.component';
+import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { EducationComponent } from './componentes/education/education.component';
 import { ExperienceComponent } from './componentes/experience/experience.component';
@@ -16,6 +17,7 @@ import { SkillsComponent } from './componentes/skills/skills.component';
 const routes: Routes = [
   { path: 'index', component:IndexComponent},
   { path: 'edicion', component:EdicionComponent},
+  { path: 'navbar', component:NavbarComponent},
   { path: 'banner', component:BannerComponent},  
   { path: 'presentation', component:PresentationComponent},
   { path: 'experience', component:ExperienceComponent},

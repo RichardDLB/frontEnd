@@ -16,6 +16,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { IndexComponent } from './componentes/index/index.component';
 import { EdicionComponent } from './componentes/edicion/edicion.component';
+import { LogosComponent } from './componentes/navbar/logos/logos.component';
+import { RedesComponent } from './componentes/navbar/redes/redes.component';
+import { LoginComponent } from './componentes/navbar/login/login.component';
+import { LogoutComponent } from './componentes/navbar/logout/logout.component';
 
 
 @NgModule({
@@ -31,8 +35,13 @@ import { EdicionComponent } from './componentes/edicion/edicion.component';
     FooterComponent,
     ModalsComponent,
     IndexComponent,
-    EdicionComponent
+    EdicionComponent,
+    LogosComponent,
+    RedesComponent,
+    LoginComponent,
+    LogoutComponent,
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,

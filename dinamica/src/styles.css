@@ -3,11 +3,16 @@
 /* SECTION NAVBAR */
 .navbar-nav {
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
+.estiloredes{
+    display: flex;
+}
+
 .nav-item1{
-    margin: 1rem;
+    margin: 1rem;    
 }
 
 .nav-item2{
