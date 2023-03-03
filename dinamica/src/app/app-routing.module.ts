@@ -5,13 +5,13 @@ import { IndexComponent } from './componentes/index/index.component';
 import { EdicionComponent } from './componentes/edicion/edicion.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { BannerComponent } from './componentes/banner/banner.component';
-import { EducationComponent } from './componentes/education/education.component';
+import { PresentationComponent } from './componentes/presentation/presentation.component';
 import { ExperienceComponent } from './componentes/experience/experience.component';
+import { EducationComponent } from './componentes/education/education.component';
+import { SkillsComponent } from './componentes/skills/skills.component';
+import { ProjectsComponent } from './componentes/projects/projects.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { ModalsComponent } from './componentes/modals/modals.component';
-import { PresentationComponent } from './componentes/presentation/presentation.component';
-import { ProjectsComponent } from './componentes/projects/projects.component';
-import { SkillsComponent } from './componentes/skills/skills.component';
 
 
 const routes: Routes = [

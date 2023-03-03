@@ -6,21 +6,9 @@
   
     <div class="container-items-banner">
 
-      <!-- pencil banner -->
-      <div class="pencilBanner">      
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#pencilEditImgBanerModal">
-        <i class="fa-solid fa-pencil fa-xl text-white"></i>
-        </button>
-      </div>      
-      <!-- pencil banner -->
+      <app-pencil-banner></app-pencil-banner>
       
-      <!-- text banner -->
-      <div class="textBanner">
-        <h1 class=" text-center text-white">
-        Hello I'm <br> {{miPorfolio.nombre}}
-        </h1>
-      </div>
-      <!-- text banner -->
+      <app-text-banner></app-text-banner>
 
       <!-- pencil edit profile photo modal -->
       <div class="pencilEditProfilePhoto">
@@ -38,11 +26,11 @@
         <div  class=" textoImgPerfil text-white text-center">
 
           <div>
-          <h4>{{miPorfolio.cargo}}</h4>         
+            <h4>{{miPorfolio.cargo}}</h4>         
           </div>
 
           <div>
-          <h5>{{miPorfolio.ciudad}}</h5>
+            <h5>{{miPorfolio.ciudad}}</h5>
           </div>
 
         </div>
