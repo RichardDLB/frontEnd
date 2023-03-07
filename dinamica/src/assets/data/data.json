@@ -23,7 +23,7 @@
 
     "educacionlist": [
             {   
-                "id": 1,
+                "id":1,
                 "tituloEducacion":"Educación",
                 "logoInstitucion": "./../assets/img/logo-se-programar.png",
                 "institucion": "Ministerio de Desarrollo Productivo Argentina",
@@ -33,7 +33,7 @@
         },
 
             {
-                "id": 2,
+                "id":2,
                 "tituloEducacion":"",
                 "logoInstitucion": "./../assets/img/logo-universidad.png",
                 "institucion": "Universidad del Quindio, Colombia",

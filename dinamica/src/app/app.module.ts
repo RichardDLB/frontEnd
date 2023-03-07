@@ -24,6 +24,9 @@ import { ModalLoginComponent } from './componentes/navbar/login/modal-login/moda
 import { PencilBannerComponent } from './componentes/banner/pencil-banner/pencil-banner.component';
 import { ModalPencilBannerComponent } from './componentes/banner/pencil-banner/modal-pencil-banner/modal-pencil-banner.component';
 import { TextBannerComponent } from './componentes/banner/text-banner/text-banner.component';
+import { PencilProfilePhotoComponent } from './componentes/banner/pencil-profile-photo/pencil-profile-photo.component';
+import { ModalPencilProfilePhotoComponent } from './componentes/banner/pencil-profile-photo/modal-pencil-profile-photo/modal-pencil-profile-photo.component';
+import { ProfilePhotoComponent } from './componentes/banner/profile-photo/profile-photo.component';
 
 
 @NgModule({
@@ -48,6 +51,9 @@ import { TextBannerComponent } from './componentes/banner/text-banner/text-banne
     PencilBannerComponent,
     ModalPencilBannerComponent,
     TextBannerComponent,
+    PencilProfilePhotoComponent,
+    ModalPencilProfilePhotoComponent,
+    ProfilePhotoComponent,
   ],
   
   imports: [

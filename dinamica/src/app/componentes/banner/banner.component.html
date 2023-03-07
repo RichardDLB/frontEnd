@@ -10,32 +10,9 @@
       
       <app-text-banner></app-text-banner>
 
-      <!-- pencil edit profile photo modal -->
-      <div class="pencilEditProfilePhoto">
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#pencilEditProfilePhotoModal">
-          <i class="fa-solid fa-pencil fa-xl text-black"></i>
-        </button>    
-      </div>
-      <!-- pencil edit profile photo modal -->
+      <app-pencil-profile-photo></app-pencil-profile-photo>
 
-      <!-- profile photo -->
-      <div class="profilePohtoBanner">
-        <div>
-          <img [src]="miPorfolio.imgPerfil" alt="profile-photo" class="rounded-circle img-fluid">
-        </div>
-        <div  class=" textoImgPerfil text-white text-center">
-
-          <div>
-            <h4>{{miPorfolio.cargo}}</h4>         
-          </div>
-
-          <div>
-            <h5>{{miPorfolio.ciudad}}</h5>
-          </div>
-
-        </div>
-      </div>  
-      <!-- profile photo -->
+      <app-profile-photo></app-profile-photo>
 
     </div>
  
