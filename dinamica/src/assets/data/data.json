@@ -77,22 +77,22 @@
         {
             "id": 5,
             "nombre": "BootStrap",
-            "porcentaje": "progress-80",
-            "porcentajenum": "80"
+            "porcentaje": "progress-75",
+            "porcentajenum": "75"
         },
 
         {
             "id": 6,
             "nombre": "Git",
-            "porcentaje": "progress-80",
-            "porcentajenum": "80"
+            "porcentaje": "progress-75",
+            "porcentajenum": "75"
         },
 
         {
             "id": 7,
-            "nombre": "Html5",
-            "porcentaje": "progress-70",
-            "porcentajenum": "70"
+            "nombre": "Ingles",
+            "porcentaje": "progress-80",
+            "porcentajenum": "80"
         },
 
         {

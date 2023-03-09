@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 import { AppComponent } from './app.component';
+import { LoginComponent } from './componentes/navbar/login/login.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { PresentationComponent } from './componentes/presentation/presentation.component';
 import { BannerComponent } from './componentes/banner/banner.component';
@@ -19,7 +20,6 @@ import { IndexComponent } from './componentes/index/index.component';
 import { EdicionComponent } from './componentes/edicion/edicion.component';
 import { LogosComponent } from './componentes/navbar/logos/logos.component';
 import { RedesComponent } from './componentes/navbar/redes/redes.component';
-import { LoginComponent } from './componentes/navbar/login/login.component';
 import { LogoutComponent } from './componentes/navbar/logout/logout.component';
 import { ModalLoginComponent } from './componentes/navbar/login/modal-login/modal-login.component';
 import { PencilBannerComponent } from './componentes/banner/pencil-banner/pencil-banner.component';
@@ -28,11 +28,15 @@ import { TextBannerComponent } from './componentes/banner/text-banner/text-banne
 import { PencilProfilePhotoComponent } from './componentes/banner/pencil-profile-photo/pencil-profile-photo.component';
 import { ModalPencilProfilePhotoComponent } from './componentes/banner/pencil-profile-photo/modal-pencil-profile-photo/modal-pencil-profile-photo.component';
 import { ProfilePhotoComponent } from './componentes/banner/profile-photo/profile-photo.component';
+import { TextPresentationComponent } from './componentes/presentation/text-presentation/text-presentation.component';
+import { PencilTextPresentationComponent } from './componentes/presentation/pencil-text-presentation/pencil-text-presentation.component';
+import { ModalPencilTextPresentationComponent } from './componentes/presentation/pencil-text-presentation/modal-pencil-text-presentation/modal-pencil-text-presentation.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    LoginComponent,
     NavbarComponent,
     PresentationComponent,
     BannerComponent,
@@ -46,7 +50,6 @@ import { ProfilePhotoComponent } from './componentes/banner/profile-photo/profil
     EdicionComponent,
     LogosComponent,
     RedesComponent,
-    LoginComponent,
     LogoutComponent,
     ModalLoginComponent,
     PencilBannerComponent,
@@ -55,6 +58,9 @@ import { ProfilePhotoComponent } from './componentes/banner/profile-photo/profil
     PencilProfilePhotoComponent,
     ModalPencilProfilePhotoComponent,
     ProfilePhotoComponent,
+    TextPresentationComponent,
+    PencilTextPresentationComponent,
+    ModalPencilTextPresentationComponent,
   ],
   
   imports: [

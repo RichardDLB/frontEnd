@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-modal-login',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./modal-login.component.css']
 })
 export class ModalLoginComponent {
+
+  
 
 }
