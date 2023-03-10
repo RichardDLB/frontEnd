@@ -31,6 +31,8 @@ import { ProfilePhotoComponent } from './componentes/banner/profile-photo/profil
 import { TextPresentationComponent } from './componentes/presentation/text-presentation/text-presentation.component';
 import { PencilTextPresentationComponent } from './componentes/presentation/pencil-text-presentation/pencil-text-presentation.component';
 import { ModalPencilTextPresentationComponent } from './componentes/presentation/pencil-text-presentation/modal-pencil-text-presentation/modal-pencil-text-presentation.component';
+import { PencilExperienceSectionComponent } from './componentes/experience/pencil-experience-section/pencil-experience-section.component';
+import { ModalPencilExperienceSectionComponent } from './componentes/experience/pencil-experience-section/modal-pencil-experience-section/modal-pencil-experience-section.component';
 
 
 @NgModule({
@@ -61,6 +63,8 @@ import { ModalPencilTextPresentationComponent } from './componentes/presentation
     TextPresentationComponent,
     PencilTextPresentationComponent,
     ModalPencilTextPresentationComponent,
+    PencilExperienceSectionComponent,
+    ModalPencilExperienceSectionComponent,
   ],
   
   imports: [
