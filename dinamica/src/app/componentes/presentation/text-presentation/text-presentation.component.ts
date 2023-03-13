@@ -15,7 +15,6 @@ export class TextPresentationComponent  implements OnInit {
   ngOnInit():void{
 
     this.datosPorfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
       this.miPorfolio=data;
     }); 
        
