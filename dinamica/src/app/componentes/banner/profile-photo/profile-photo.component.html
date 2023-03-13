@@ -1,15 +1,15 @@
 <!-- profile photo -->
 <div class="profilePohtoBanner">
-    <div>
+    <div *ngIf="miPorfolio">
       <img [src]="miPorfolio.imgPerfil" alt="profile-photo" class="rounded-circle img-fluid">
     </div>
     <div  class=" textoImgPerfil text-white text-center">
 
-      <div>
+      <div *ngIf="miPorfolio">
         <h4>{{miPorfolio.cargo}}</h4>         
       </div>
 
-      <div>
+      <div *ngIf="miPorfolio">
         <h5>{{miPorfolio.ciudad}}</h5>
       </div>
 
