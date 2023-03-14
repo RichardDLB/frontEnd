@@ -35,6 +35,13 @@ import { PencilExperienceSectionComponent } from './componentes/experience/penci
 import { ModalPencilExperienceSectionComponent } from './componentes/experience/pencil-experience-section/modal-pencil-experience-section/modal-pencil-experience-section.component';
 import { TituloExperienciaComponent } from './componentes/experience/titulo-experiencia/titulo-experiencia.component';
 import { BotonLogoNtn24Component } from './componentes/experience/boton-logo-ntn24/boton-logo-ntn24.component';
+import { InformacionExperienciaComponent } from './componentes/experience/informacion-experiencia/informacion-experiencia.component';
+import { PencilAndXmarkInfoExperienceComponent } from './componentes/experience/pencil-and-xmark-info-experience/pencil-and-xmark-info-experience.component';
+import { PencilInfoExperienceComponent } from './componentes/experience/pencil-and-xmark-info-experience/pencil-info-experience/pencil-info-experience.component';
+import { XmarkInfoExperienceComponent } from './componentes/experience/pencil-and-xmark-info-experience/xmark-info-experience/xmark-info-experience.component';
+import { ModalPencilInfoExperienceComponent } from './componentes/experience/pencil-and-xmark-info-experience/pencil-info-experience/modal-pencil-info-experience/modal-pencil-info-experience.component';
+import { ModalXmarkInfoExperienceComponent } from './componentes/experience/pencil-and-xmark-info-experience/xmark-info-experience/modal-xmark-info-experience/modal-xmark-info-experience.component';
+import { ModalBotonLogoNtn24Component } from './componentes/experience/boton-logo-ntn24/modal-boton-logo-ntn24/modal-boton-logo-ntn24.component';
 
 
 @NgModule({
@@ -69,6 +76,13 @@ import { BotonLogoNtn24Component } from './componentes/experience/boton-logo-ntn
     ModalPencilExperienceSectionComponent,
     TituloExperienciaComponent,
     BotonLogoNtn24Component,
+    InformacionExperienciaComponent,
+    PencilAndXmarkInfoExperienceComponent,
+    PencilInfoExperienceComponent,
+    XmarkInfoExperienceComponent,
+    ModalPencilInfoExperienceComponent,
+    ModalXmarkInfoExperienceComponent,
+    ModalBotonLogoNtn24Component,
   ],
   
   imports: [
