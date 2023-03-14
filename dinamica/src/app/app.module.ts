@@ -33,6 +33,7 @@ import { PencilTextPresentationComponent } from './componentes/presentation/penc
 import { ModalPencilTextPresentationComponent } from './componentes/presentation/pencil-text-presentation/modal-pencil-text-presentation/modal-pencil-text-presentation.component';
 import { PencilExperienceSectionComponent } from './componentes/experience/pencil-experience-section/pencil-experience-section.component';
 import { ModalPencilExperienceSectionComponent } from './componentes/experience/pencil-experience-section/modal-pencil-experience-section/modal-pencil-experience-section.component';
+import { TituloExperienciaComponent } from './componentes/experience/titulo-experiencia/titulo-experiencia.component';
 
 
 @NgModule({
@@ -65,6 +66,7 @@ import { ModalPencilExperienceSectionComponent } from './componentes/experience/
     ModalPencilTextPresentationComponent,
     PencilExperienceSectionComponent,
     ModalPencilExperienceSectionComponent,
+    TituloExperienciaComponent,
   ],
   
   imports: [
