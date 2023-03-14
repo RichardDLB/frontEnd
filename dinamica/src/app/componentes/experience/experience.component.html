@@ -1,8 +1,9 @@
 <!-- EXPERIENCE SECTION -->
 <section class="container-experience bg-black" id="experienceSection"> 
-  <!-- pencil edit experience section -->
+
+    <!-- pencil edit experience section -->
     <app-pencil-experience-section></app-pencil-experience-section>
-  <!-- pencil edit experience section -->
+    <!-- pencil edit experience section -->
       
     <div *ngFor="let experiencias of miPorfolio" class="container-box-experience">
 
@@ -11,24 +12,20 @@
       <!-- titulo experiencia -->
 
 
-        <div class="card card2">
-    <!--Button logo ntn24 modal -->
-          <div class="box-logo">
-            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#logoNtn24Modal">
-              <img [src]="experiencias.logoEmpresa" alt="logoNtn-24" class="imgLogoNtn24">
-            </button>
-          </div>
-    <!--Button logo ntn24 modal -->
-        </div>
-        
-        <div class="card card3">
+      <!--Button logo ntn24  -->
+        <app-boton-logo-ntn24></app-boton-logo-ntn24>
+      <!--Button logo ntn24  -->
 
+      <!-- informacion experiencia  -->
+        <div class="">
           <div class="webEditorText text-white">        
             <h4>{{experiencias.empresa}}</h4>
             <h5>{{experiencias.cargo}}</h5>
             <h5>{{experiencias.fechaIni}} / {{experiencias.fechaFin}} </h5>
           </div> 
         </div> 
+      <!-- informacion experiencia  -->
+
 
         <div class="card card4"> 
     <!-- pencil edit text company modal-->

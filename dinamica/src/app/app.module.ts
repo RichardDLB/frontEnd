@@ -34,6 +34,7 @@ import { ModalPencilTextPresentationComponent } from './componentes/presentation
 import { PencilExperienceSectionComponent } from './componentes/experience/pencil-experience-section/pencil-experience-section.component';
 import { ModalPencilExperienceSectionComponent } from './componentes/experience/pencil-experience-section/modal-pencil-experience-section/modal-pencil-experience-section.component';
 import { TituloExperienciaComponent } from './componentes/experience/titulo-experiencia/titulo-experiencia.component';
+import { BotonLogoNtn24Component } from './componentes/experience/boton-logo-ntn24/boton-logo-ntn24.component';
 
 
 @NgModule({
@@ -67,6 +68,7 @@ import { TituloExperienciaComponent } from './componentes/experience/titulo-expe
     PencilExperienceSectionComponent,
     ModalPencilExperienceSectionComponent,
     TituloExperienciaComponent,
+    BotonLogoNtn24Component,
   ],
   
   imports: [
